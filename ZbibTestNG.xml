@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="zbib test suit" >
+
+	 <test  name="Test Manual Entry Verify">
+    <classes>
+      <class name="com.zbib.Test.ManualEntryVerify"/>
+    </classes>
+  </test>
+
+ <test name="Test Cite Verify">
+    <classes>
+      <class name="com.zbib.Test.CiteVerifyTest"/>
+    </classes>
+  </test>
+  
+  
+
+
+</suite>

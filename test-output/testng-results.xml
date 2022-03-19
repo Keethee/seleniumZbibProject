@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-19T21:57:09 IST" name="zbib test suit" finished-at="2022-03-19T21:58:50 IST" duration-ms="100707">
+    <groups>
+    </groups>
+    <test started-at="2022-03-19T21:57:09 IST" name="Test Manual Entry Verify" finished-at="2022-03-19T21:57:45 IST" duration-ms="36344">
+      <class name="com.zbib.Test.ManualEntryVerify">
+        <test-method is-config="true" signature="openBrower()[pri:0, instance:com.zbib.Test.ManualEntryVerify@4988d8b8]" started-at="2022-03-19T21:57:09 IST" name="openBrower" finished-at="2022-03-19T21:57:18 IST" duration-ms="9418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrower -->
+        <test-method signature="manualBookEntry()[pri:0, instance:com.zbib.Test.ManualEntryVerify@4988d8b8]" started-at="2022-03-19T21:57:18 IST" name="manualBookEntry" finished-at="2022-03-19T21:57:45 IST" duration-ms="26875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manualBookEntry -->
+      </class> <!-- com.zbib.Test.ManualEntryVerify -->
+    </test> <!-- Test Manual Entry Verify -->
+    <test started-at="2022-03-19T21:57:45 IST" name="Test Cite Verify" finished-at="2022-03-19T21:58:50 IST" duration-ms="64247">
+      <class name="com.zbib.Test.CiteVerifyTest">
+        <test-method is-config="true" signature="openBrower()[pri:0, instance:com.zbib.Test.CiteVerifyTest@31f9b85e]" started-at="2022-03-19T21:57:45 IST" name="openBrower" finished-at="2022-03-19T21:57:51 IST" duration-ms="5887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrower -->
+        <test-method signature="searchBookEntry()[pri:0, instance:com.zbib.Test.CiteVerifyTest@31f9b85e]" started-at="2022-03-19T21:57:51 IST" name="searchBookEntry" finished-at="2022-03-19T21:58:50 IST" duration-ms="58355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBookEntry -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.zbib.Test.CiteVerifyTest@31f9b85e]" started-at="2022-03-19T21:58:50 IST" name="closeBrowser" finished-at="2022-03-19T21:58:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.zbib.Test.CiteVerifyTest -->
+    </test> <!-- Test Cite Verify -->
+  </suite> <!-- zbib test suit -->
+</testng-results>
